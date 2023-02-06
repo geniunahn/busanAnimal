@@ -1,0 +1,12 @@
+.nav_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1d99f7;
+  padding: 20px 0;
+}
+
+.nav_wrap a {
+  margin: 0 20px;
+  color: #fff;
+}

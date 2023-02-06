@@ -1,0 +1,18 @@
+@import url(./reset.css);
+@import url(./info.css);
+@import url(./nav.css);
+@import url(./homeContents.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+.App {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.width_wrap {
+  width: 500px;
+}

@@ -1,0 +1,21 @@
+.home_wrap {
+  text-align: center;
+}
+
+.home_wrap h1 {
+  padding: 10px;
+  color: #1d99f7;
+}
+
+.home_wrap p {
+  padding: 10px;
+  color: #1d99f7;
+}
+
+.home_wrap .img_wrap {
+  width: 100%;
+}
+
+.home_wrap .img_wrap img {
+  width: 100%;
+}
