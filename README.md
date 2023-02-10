@@ -1,24 +1,20 @@
 # 공공데이터 API 활용 앱 프로젝트
 - 제작자 : 안정원
 - 깃허브 url : https://github.com/geniunahn/busanAnimal
-- 프로젝트 url : https://port-0-newyearscard-20z52flbz7mc39.gksl2.cloudtype.app/
+- 프로젝트 url : https://web-busananimal-20z52flbz7mc39.gksl2.cloudtype.app/
 
-# 제작 상황 및 목표
-- 제작 상황 : node.js, ejs, fileDB 환경에서 생성과 삭제 기능까지 배운 상황이다. 새해 연하장을 만들어 지인들에게 보내고 반응을 얻는 것이 과제의 목적이며 제작 기한은 하루다.
+# 제작 목표
 - 제작 목표 :
-- 생성과 삭제에서 만족하지 말고 배운 지식을 응용하여 덕담 수정 기능과 덕담을 수정하거나 삭제할 때 비밀번호를 입력해야만 하는 기능을 추가한다.
-- 지인들에게 연하장을 보내고 카톡으로 보내주는 반응을 캡쳐하여 기록한다.
+ 공공데이터 API와 React를 활용하여 모바일 애플리케이션을 제작하고 실행까지 테스트하는 것이 목표다.
 
-# 디자인 및 적용기술 설명
+# 애플리케이션에 추가된 기능 소개
+![1](https://user-images.githubusercontent.com/106502672/217990902-4c5451d6-d833-4463-a0d9-539d856ea066.jpg)
 
-![1](https://user-images.githubusercontent.com/106502672/209252433-cbc5260c-9383-4af2-ba6f-8486d7a87e40.jpg)
-![2](https://user-images.githubusercontent.com/106502672/210084027-2852a8d4-138b-49c8-8696-6d200b465f37.jpg)
-![3](https://user-images.githubusercontent.com/106502672/210083422-ba83834a-ee4d-49c0-9a73-366a52ddd5a0.jpg)
 
-# 제작 과정에서의 문제와 극복 과정
-- 하루라는 제작 기한으로 인해 마음을 내려놓고 시중에 나와 있는 연하장 디자인을 참고하며 만들었다.
-- 제작 기한 동안 디자인에 공을들이기 보다는 아직 배우지 않은 수정 기능과 비밀번호 기능을 추가하는 데 주력했다. 배우지 않았다 해도 기존의 지식을 응용하면 충분히 가능하다고 생각했고 도전해 보니 그 생각이 옳았다는 것을 증명할 수 있었다. fileDB라서 배열에 대한 기초적인 지식만 있어도 충분히 구현 가능한 기술들이었다.
+# 개선된 개발 코드 소개
+![2](https://user-images.githubusercontent.com/106502672/217990924-8dec09ba-4a41-4167-8e35-86fe94413e79.jpg)
 
-# 사용 후기
-![3](https://user-images.githubusercontent.com/106502672/209252447-21c01205-a285-4777-b511-54295c695c0c.jpg)
+
+# 개선 과정에서 발생한 문제와 그에 대한 대처
+- 처음 코드를 작성할 때는 Routes 문서에게도 html 과 css를 적용하려고 했다. 하지만 그렇게 코드를 만들 경우 나중에 프로젝트를 확장하거나 수정해야 할 때 component와 Routes문서를 함께 수정해야하는 번거로움이 생긴다는 문제를 예상했다. 그래서 리액트의 특징이자 장점인 컴포넌트를 최대한 활용하기 위하여 Routes 문서는 오직 컴포넌트 문서만 들어가도록 하고 실질적인 contents는 전부 component 문서에 담도록 했다. 이렇게 코드 구조를 만들면 나중에 프로젝트를 확장해야 할 때 component 문서만 수정하거나 교체하면 되기 때문에 훨씬 효율적인 작업이 가능할 것으로 예상된다.
 
